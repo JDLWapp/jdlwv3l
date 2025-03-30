@@ -121,7 +121,7 @@ fun LoginScreen(
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(Blue1)
+            .background(Color(0xFFBAD0E7))
             .padding(horizontal = 16.dp),
         verticalArrangement = Arrangement.Top,
         horizontalAlignment = Alignment.CenterHorizontally
@@ -308,7 +308,7 @@ fun RegistrationScreen(
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(Blue1)
+            .background(Color(0xFFBAD0E7))
             .padding(horizontal = 16.dp),
         verticalArrangement = Arrangement.Top,
         horizontalAlignment = Alignment.CenterHorizontally

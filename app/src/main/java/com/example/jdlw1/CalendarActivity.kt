@@ -312,7 +312,7 @@ fun AgendaItem(
         Box(
             modifier = Modifier
                 .size(40.dp)
-                .background(Color(0xFFF0F2F4), shape = RoundedCornerShape(8.dp)),
+                .background(Color(0xFFBAD0E7), shape = RoundedCornerShape(8.dp)),
             contentAlignment = Alignment.Center
         ) {
             Icon(
@@ -539,7 +539,11 @@ fun CalendarScreenPreview() {
         )
 
         // Se agrupan y muestran como en runtime
-        Column {
+        Column (
+            modifier = Modifier
+                .fillMaxSize()
+                .background(Color(0xFFBAD0E7)) // Fondo de la columna
+        ){
             TopBar()
             val locale = Locale("es", "ES")
             val formatter = DateTimeFormatter.ofPattern("EEEE, d 'de' MMMM", locale)

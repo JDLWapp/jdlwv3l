@@ -83,6 +83,7 @@ fun WeatherScreen() {
     Scaffold(
         topBar = {
             CenterAlignedTopAppBar(
+
                 title = {
                     Box(
                         modifier = Modifier
@@ -95,7 +96,10 @@ fun WeatherScreen() {
                             fontSize = 18.sp
                         )
                     }
-                }
+                },
+                colors = TopAppBarDefaults.topAppBarColors(
+                    containerColor = Color(0xFFBAD0E7) // Color de fondo de la barra
+                )
                 // Si quieres un icono de retroceso:
                 // navigationIcon = {
                 //     IconButton(onClick = { /* onBack */ }) {

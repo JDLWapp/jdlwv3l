@@ -103,7 +103,9 @@ fun IAScreen() {
     Scaffold(
         topBar = {
             CenterAlignedTopAppBar(
-                title = { Text("Mi Asistente IA", fontWeight = FontWeight.Bold) }
+                title = { Text("Mi Asistente IA", fontWeight = FontWeight.Bold) },
+                colors = TopAppBarDefaults.topAppBarColors(containerColor = Color(0xFFBAD0E7) // Fondo del TopAppBar
+                        )
             )
         },
         bottomBar = { IABottomNavBar() }
@@ -112,6 +114,7 @@ fun IAScreen() {
             modifier = Modifier
                 .fillMaxSize()
                 .padding(innerPadding)
+                .background(Color(0xFFBAD0E7))
         ) {
             IAContent(
                 modifier = Modifier

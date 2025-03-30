@@ -90,6 +90,9 @@ fun ProfileScreen() {
                 title = {
                     Text(text = "Profile", fontWeight = FontWeight.Bold, fontSize = 18.sp)
                 },
+                colors = TopAppBarDefaults.topAppBarColors(
+                    containerColor = Color(0xFFBAD0E7) // Color de fondo de la barra
+                )
 
                 )
         },
