@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">JDLW1</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_calendar">CalendarActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_weather">WeatherActivity</string>
+    <string name="title_activity_iaactivity">IAActivity</string>
+    <string name="web_client_id">170370904750-bt6il7f0l1ke4gsm789l3k5m6hctdqdb.apps.googleusercontent.com</string>
+    <string name="title_activity_login2">Login2Activity</string>
+
+</resources>
